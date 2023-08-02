@@ -17,6 +17,7 @@ h6 {
 a {
   color: #000000;
   transition: all .5s ease;
+  text-decoration: none;
 }
 
 a:hover {
@@ -2019,3 +2020,20 @@ footer .credits {
 .about-container{
   text-align: justify;
 }
+
+ /* Faqs */
+ .accordion-button:not(.collapsed){
+	color: white;
+	background-color: #2eca6a;
+  }
+
+  .btn-primary{
+    background-color:#2eca6a;
+    border-color: #2eca6a !important;
+  }
+  .btn-primary:hover{
+    background-color: #fff;
+    color: #2eca6a;
+    border: 2px solid;
+    font-weight: 600;
+  }
