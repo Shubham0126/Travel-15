@@ -84,7 +84,7 @@
 	});
 
 	/*--/ Property owl /--*/
-	$('#property-carousel').owlCarousel({
+	$('#destinations-carousel').owlCarousel({
 		loop: true,
 		margin: 30,
 		responsive: {
@@ -101,7 +101,7 @@
 	});
 
 	/*--/ Property owl owl /--*/
-	$('#property-single-carousel').owlCarousel({
+	$('#destinations-single-carousel').owlCarousel({
 		loop: true,
 		margin: 0,  
 		nav: true,
@@ -111,6 +111,21 @@
 				items: 1,
 			}
 		}
+	});
+	
+	/*--/ Marketing Popup /--*/
+	var delay = 5000;
+	setTimeout(function() {
+  	setInterval(function(){
+    $(document).ready(function () {
+
+        $('.modal-box').show();
+    
+    		});
+  		},4000)
+	}, delay);
+	$(".fa-times").click(function(){
+		$('.modal-box').hide();
 	});
 
 	/*--/ News owl /--*/
